@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Gregol
+Build-Jdk: 11.0.2
+Implementation-Title: projeto-modelo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: br.com.apex.modelo
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/projeto-modelo
+Created-By: Maven Integration for Eclipse
+
