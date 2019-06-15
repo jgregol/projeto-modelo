@@ -6,14 +6,13 @@ import br.com.apex.modelo.domain.Departamento;
 
 public interface DepartamentoDao {
 
-	void save(Departamento departamento);
+    void save(Departamento departamento);
 
-	void update(Departamento departamento);
+    void update(Departamento departamento);
 
-	void delete(Long id);
+    void delete(Long id);
 
-	Departamento findById(Long id);
+    Departamento findById(Long id);
 
-	List<Departamento> findAll();
-
+    List<Departamento> findAll();
 }

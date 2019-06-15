@@ -25,6 +25,7 @@ import br.com.apex.modelo.domain.Funcionario;
 import br.com.apex.modelo.domain.UF;
 import br.com.apex.modelo.service.CargoService;
 import br.com.apex.modelo.service.FuncionarioService;
+import br.com.apex.modelo.web.validator.FuncionarioValidator;
 
 
 
