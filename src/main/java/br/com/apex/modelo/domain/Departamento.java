@@ -26,7 +26,7 @@ public class Departamento extends AbstractEntity<Long> {
 		this.nome = nome;
 	}
 
-	public List<Cargo> getCargo() {
+	public List<Cargo> getCargos() {
 		return cargo;
 	}
 
