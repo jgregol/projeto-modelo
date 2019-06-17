@@ -2,17 +2,13 @@ package br.com.apex.modelo.domain;
 
 import java.io.Serializable;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.*;
 
 @SuppressWarnings("serial")
 @MappedSuperclass
 public abstract class AbstractEntity<ID extends Serializable> implements Serializable {
 
-	@Id
-	@GeneratedValue (strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private ID id;
 
 	public ID getId() {
@@ -50,7 +46,6 @@ public abstract class AbstractEntity<ID extends Serializable> implements Seriali
 
 	@Override
 	public String toString() {
-		return "id =" + id;
-	}
-
+		return "id = " + id;
+	}	
 }

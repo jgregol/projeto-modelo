@@ -6,8 +6,8 @@ import java.util.List;
 import br.com.apex.modelo.domain.Funcionario;
 
 public interface FuncionarioService {
-	
-	void salvar(Funcionario funcionario);
+
+    void salvar(Funcionario funcionario);
 
     void editar(Funcionario funcionario);
 
@@ -22,5 +22,4 @@ public interface FuncionarioService {
 	List<Funcionario> buscarPorCargo(Long id);
 	
 	List<Funcionario> buscarPorDatas(LocalDate entrada, LocalDate saida);
-
 }

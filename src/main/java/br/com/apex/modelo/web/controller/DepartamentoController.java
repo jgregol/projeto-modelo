@@ -15,8 +15,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import br.com.apex.modelo.domain.Departamento;
 import br.com.apex.modelo.service.DepartamentoService;
 
-
-
 @Controller
 @RequestMapping("/departamentos")
 public class DepartamentoController {

@@ -9,8 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import br.com.apex.modelo.dao.CargoDao;
 import br.com.apex.modelo.domain.Cargo;
 
-
-
 @Service @Transactional(readOnly = false)
 public class CargoServiceImpl implements CargoService {
 	

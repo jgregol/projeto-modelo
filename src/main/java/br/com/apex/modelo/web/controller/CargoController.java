@@ -20,8 +20,6 @@ import br.com.apex.modelo.domain.Departamento;
 import br.com.apex.modelo.service.CargoService;
 import br.com.apex.modelo.service.DepartamentoService;
 
-
-
 @Controller
 @RequestMapping("/cargos")
 public class CargoController {

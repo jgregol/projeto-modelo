@@ -2,7 +2,7 @@ package br.com.apex.modelo.domain;
 
 public enum UF {
 
-	AC("AC", "Acre"),
+	AC("AC", "Acre"), 
 	AL("AL", "Alagoas"),
 	AM("AM", "Amazonas"),
 	BA("BA", "Bahia"),
@@ -11,7 +11,7 @@ public enum UF {
 	ES("ES", "Espírito Santo"),
 	GO("GO", "Goiás"),
 	MA("MA", "Maranhão"),
-	MT("MT", "Mato Grosso"), 
+	MT("MT", "Mato Grosso"),
 	MS("MS", "Mato Grosso do Sul"),
 	MG("MG", "Minas Gerais"),
 	PA("PA", "Pará"),
@@ -32,17 +32,16 @@ public enum UF {
 	private String sigla;
 	private String descricao;
 	
-	UF(String sigla, String descricao){
+	UF(String sigla, String descricao) {
 		this.sigla = sigla;
 		this.descricao = descricao;
 	}
-	
+
 	public String getSigla() {
 		return sigla;
 	}
-	
+
 	public String getDescricao() {
 		return descricao;
 	}
-
 }

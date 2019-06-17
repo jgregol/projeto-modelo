@@ -7,8 +7,6 @@ import org.springframework.validation.Validator;
 
 import br.com.apex.modelo.domain.Funcionario;
 
-
-
 public class FuncionarioValidator implements Validator {
 
 	@Override

@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import br.com.apex.modelo.dao.DepartamentoDao;
 import br.com.apex.modelo.domain.Departamento;
 
-
 @Service
 public class DepartamentoServiceImpl implements DepartamentoService {
 	

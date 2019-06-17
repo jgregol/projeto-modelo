@@ -27,8 +27,6 @@ import br.com.apex.modelo.service.CargoService;
 import br.com.apex.modelo.service.FuncionarioService;
 import br.com.apex.modelo.web.validator.FuncionarioValidator;
 
-
-
 @Controller
 @RequestMapping("/funcionarios")
 public class FuncionarioController {

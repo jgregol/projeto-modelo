@@ -4,7 +4,6 @@ import java.util.List;
 
 import br.com.apex.modelo.domain.Departamento;
 
-
 public interface DepartamentoService {
 
     void salvar(Departamento departamento);

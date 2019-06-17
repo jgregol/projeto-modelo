@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component;
 import br.com.apex.modelo.domain.Cargo;
 import br.com.apex.modelo.service.CargoService;
 
-
-
 @Component
 public class StringToCargoConversor implements Converter<String, Cargo> {
 
